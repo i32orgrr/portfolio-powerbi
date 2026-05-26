@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Power BI | Regina Ortega Grueso</title>
+ <style>
+  body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #FAF8F4;
+    color: #2F3437;
+    line-height: 1.6;
+  }
+
+  header {
+    background: #355C6B;
+    color: white;
+    padding: 58px 20px;
+    text-align: center;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    font-weight: 700;
+  }
+
+  header p {
+    margin-top: 12px;
+    font-size: 1.1rem;
+    color: #F3EEE6;
+  }
+
+  main {
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+
+  section {
+    background: #FFFFFF;
+    margin-bottom: 28px;
+    padding: 28px;
+    border-radius: 14px;
+    border: 1px solid #E8E1D7;
+    box-shadow: 0 4px 14px rgba(47, 52, 55, 0.06);
+  }
+
+  h2 {
+    margin-top: 0;
+    color: #2F3437;
+    border-bottom: 2px solid #CDB58A;
+    padding-bottom: 8px;
+    font-size: 1.35rem;
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 16px;
+  }
+
+  .tag {
+    background: #F3EEE6;
+    color: #355C6B;
+    border: 1px solid #D2BE9C;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 22px;
+    margin-top: 20px;
+  }
+
+  .card {
+    border: 1px solid #E8E1D7;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #FAF8F4;
+  }
+
+  .card img {
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #E8E1D7;
+  }
+
+  .card div {
+    padding: 16px;
+  }
+
+  .card h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #355C6B;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+
+  li {
+    margin-bottom: 6px;
+  }
+
+  .note {
+    background: #F3EEE6;
+    border-left: 5px solid #CDB58A;
+    padding: 16px;
+    border-radius: 8px;
+    margin-top: 18px;
+    color: #2F3437;
+    font-weight: 600;
+  }
+
+  footer {
+    text-align: center;
+    padding: 28px;
+    color: #6F7C83;
+    font-size: 0.9rem;
+  }
+
+  a {
+    color: #355C6B;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  a:hover {
+    color: #B05D5D;
+    text-decoration: underline;
+  }
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Portfolio Power BI</h1>
+  <p>Análisis comercial en entorno retail/ecommerce | Regina Ortega Grueso</p>
+</header>
+
+<main>
+
+  <section>
+    <h2>Sobre el proyecto</h2>
+    <p>
+      Proyecto Power BI que recrea un análisis comercial de campañas flash sale en retail/ecommerce,
+      inspirado en procesos reales de análisis de ventas, surtido, devoluciones, campañas y facturación.
+    </p>
+    <p>
+      El objetivo del informe es mostrar el proceso completo de trabajo con datos: carga, limpieza,
+      transformación, modelado, creación de medidas DAX, diseño visual y análisis orientado a la toma
+      de decisiones comerciales.
+    </p>
+
+    <div class="tags">
+      <span class="tag">Power BI</span>
+      <span class="tag">Power Query</span>
+      <span class="tag">DAX</span>
+      <span class="tag">SQL / MySQL</span>
+      <span class="tag">Modelo de datos</span>
+      <span class="tag">Retail / Ecommerce</span>
+      <span class="tag">KPIs</span>
+      <span class="tag">Reporting</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Qué analiza el informe</h2>
+    <ul>
+      <li>Selección de surtido para campañas flash sale.</li>
+      <li>Ventas, unidades, productos ofertados y productos vendidos.</li>
+      <li>Productos con mejor rendimiento, baja rotación y venta cero.</li>
+      <li>Análisis estratégico de campañas: lanzamiento, rendimiento inicial y comportamiento por canal.</li>
+      <li>Devoluciones, patrones de incidencia y productos problemáticos.</li>
+      <li>Evolución temporal, facturación, abonos y seguimiento del negocio.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Capturas del informe</h2>
+    <p>
+      A continuación se muestran algunas páginas representativas del informe Power BI.
+    </p>
+
+    <div class="grid">
+
+      <div class="card">
+        <img src="img/surtido.png" alt="Análisis de surtido en Power BI">
+        <div>
+          <h3>Análisis de surtido</h3>
+          <p>Selección de productos, rendimiento histórico, productos sin venta y referencias con potencial.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/estrategia.png" alt="Análisis estratégico de campañas en Power BI">
+        <div>
+          <h3>Análisis estratégico</h3>
+          <p>Evaluación de campañas, horarios de lanzamiento, rendimiento inicial y comportamiento comercial.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/devoluciones.png" alt="Análisis de devoluciones en Power BI">
+        <div>
+          <h3>Devoluciones</h3>
+          <p>Detección de patrones, productos problemáticos y referencias con buena venta y baja incidencia.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/facturacion.png" alt="Análisis de facturación en Power BI">
+        <div>
+          <h3>Facturación</h3>
+          <p>Seguimiento de facturación, abonos, evolución por cliente/canal y comportamiento del negocio.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="note">
+      Informe interactivo disponible bajo solicitud.
+    </div>
+  </section>
+
+  <section>
+    <h2>Qué demuestra este proyecto</h2>
+    <ul>
+      <li>Capacidad para integrar datos procedentes de distintas fuentes.</li>
+      <li>Limpieza y transformación de datos con Power Query.</li>
+      <li>Diseño de modelo de datos orientado al análisis.</li>
+      <li>Creación de medidas DAX para KPIs comerciales.</li>
+      <li>Diseño de informes Power BI claros y orientados a negocio.</li>
+      <li>Lectura analítica para apoyar decisiones comerciales y operativas.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contacto</h2>
+    <p>
+      LinkedIn:
+      <a href="https://www.linkedin.com/in/regina-ortega-grueso" target="_blank">
+        www.linkedin.com/in/regina-ortega-grueso
+      </a>
+    </p>
+  </section>
+
+</main>
+
+<footer>
+  Portfolio Power BI · Regina Ortega Grueso
+</footer>
+
+</body>
+</html>
